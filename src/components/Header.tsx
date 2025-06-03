@@ -6,7 +6,7 @@ interface HeaderProps {
   toggleDarkMode: () => void;
 }
 
-const Header: React.FC<HeaderProps> = ({ darkMode, toggleDarkMode }) => {
+const Header: React.FC<HeaderProps> = ({ toggleDarkMode }) => {
   return (
     <header className="py-4 px-6 bg-white dark:bg-gray-800 shadow-sm transition-colors duration-200">
       <div className="container mx-auto flex justify-between items-center">
